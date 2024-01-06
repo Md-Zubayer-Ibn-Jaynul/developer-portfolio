@@ -3,7 +3,7 @@
     margin: 0px;
 }
 
-/* common shared styled */
+/* commonly shared styled */
 body {
     font-family: 'Open Sans', sans-serif;
 }
@@ -36,6 +36,7 @@ body {
 
 .section-title {
     margin-bottom: 30px;
+    /* padding-bottom: 30px; */
     color: #181818;
     text-align: center;
     font-size: 35px;
@@ -46,9 +47,10 @@ body {
     color: #757575;
     text-align: center;
     font-size: 18px;
-    /* font-weight: 400;
+    margin-bottom: 30px;
+    /* padding-bottom: 30px; */
+    font-weight: 400;
     line-height: 30px;
-    166.667% */
 }
 
 /* nav related styles */
@@ -57,6 +59,7 @@ nav {
     justify-content: space-between;
     align-items: center;
     margin: 0px 200px;
+    padding-top: 50px;
 }
 
 .nav-title {
@@ -114,14 +117,20 @@ nav a {
     font-size: 85px;
     font-weight: 700;
     margin-top: 5px;
-    margin-bottom: 20px;
+    /* margin-bottom: 20px; */
+    padding-bottom: 20px;
 }
 
 .banner-description {
-    margin-bottom: 30px;
+    /* margin-bottom: 30px; */
+    padding-bottom: 30px;
 }
 
 /* main section styles */
+main {
+    max-width: 1140px;
+    margin: 0px auto;
+}
 
 /* about section styles */
 .about {
@@ -131,4 +140,28 @@ nav a {
     margin: 130px 0px;
     /* width: 1140px;
     height: 550px; */
+}
+
+.about-info-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.about-info {
+    text-align: center;
+}
+
+.info-title {
+    color: #757575;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    /* 150% */
+}
+
+.info-description {
+    color: #474747;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 30px;
 }
