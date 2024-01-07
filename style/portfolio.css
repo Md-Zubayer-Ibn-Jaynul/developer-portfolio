@@ -167,6 +167,13 @@ main {
 }
 
 /* i do section styles */
+.i-do {
+    padding: 130px;
+    border-radius: 10px;
+    margin: 130px 0px;
+    /* width: 1140px;
+    height: 550px; */
+}
 
 .skill-container {
     display: flex;
